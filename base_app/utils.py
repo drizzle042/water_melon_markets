@@ -49,7 +49,7 @@ class Utils:
 class CleanDict(UserDict):
 	
 	def __setitem__(self, key, value) -> None:
-		if (value == '') or (value is None):
+		if (value == '') or (str(value).isspace()) or (value is None):
 			return
 		else:
 			value = value

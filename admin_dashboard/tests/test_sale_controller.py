@@ -18,7 +18,7 @@ class SaleControllerTestCase(TestCase):
 
     def test_get_sale(self) -> None:
         response = self.client.get(
-            path='/admin/api/v0/administartors/sales/',
+            path='/admin/api/v0/administrators/sales/',
             data={
                 'id': 1
             },
@@ -30,7 +30,7 @@ class SaleControllerTestCase(TestCase):
 
     def test_update_sale_status(self) -> None:
         response = self.client.put(
-            path='/admin/api/v0/administartors/sales/',
+            path='/admin/api/v0/administrators/sales/',
             data={
                 'id': 1
             },
