@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.085df436.css",
+    "main.js": "/static/js/main.013f8607.js",
+    "static/js/787.8dc686ec.chunk.js": "/static/js/787.8dc686ec.chunk.js",
+    "static/media/Dongle-Regular.ttf": "/static/media/Dongle-Regular.9dbc75e83a6ef77939a3.ttf",
+    "static/media/internetConnection.png": "/static/media/internetConnection.2d8616ffe6e30e874cf5.png",
+    "static/media/robot.png": "/static/media/robot.b68da14fe5b97ff9c7da.png",
+    "index.html": "/index.html",
+    "main.085df436.css.map": "/static/css/main.085df436.css.map",
+    "main.013f8607.js.map": "/static/js/main.013f8607.js.map",
+    "787.8dc686ec.chunk.js.map": "/static/js/787.8dc686ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.085df436.css",
+    "static/js/main.013f8607.js"
+  ]
+}

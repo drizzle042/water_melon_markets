@@ -1,6 +1,7 @@
 # Water Melon Markets
 
-To run this project, make sure you have Python installed.
+To run this project, make sure you have Python installed. 
+>Preferably python 3.10 but it might work on other versions
 
 In the project root directory, open a terminal and run `python -m venv env` to start a new virtual environment called _env_. 
 >This can actually be what ever you want to call it but just run `python -m venv <name you like>`.
@@ -9,6 +10,8 @@ Activate your virtual environment using `env\scripts\activate`
 >Or `<name you like>\scripts\activate` If you are using a custom name for your env.
 
 Next make sure you have pip installed then run `pip install -r requirements.txt` to install all project dependencies.
+
+Then run `python manage.py collectstatic`
 
 Now it's ready to run. The project uses SQLite file system database and will automatically create one when you run it. 
 You probably want to allow that on your os. 
